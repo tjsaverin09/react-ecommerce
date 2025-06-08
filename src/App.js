@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Nav />
         <Route path="/" exact component={Home} />
-        <Route path="/books" render={() => <Books book={books} />} />
+        <Route path="/books" render={() => <Books books={books} />} />
         <Footer />
       </div>
     </Router>
